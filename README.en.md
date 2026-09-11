@@ -1,5 +1,7 @@
 # Tensive Schemas
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22712487.svg)](https://doi.org/10.5281/zenodo.22712487)
+
 **Read in:** [Português](README.md) · English (current) · [Français](README.fr.md)
 
 Two Python tools that generate, from code, the visualizations of two schemas
@@ -165,7 +167,7 @@ Available at: https://revistas.usp.br/esse/article/view/206156. Accessed: 11 Sep
 ```
 BONIN, Gustavo. Esquemas Tensivos: intensity space (points and zones) and
 field of presence [software]. Programa de Pós-Graduação em Linguística,
-Universidade de São Paulo, 2026. Available at:
+Universidade de São Paulo, 2026. DOI: 10.5281/zenodo.22712487. Available at:
 https://github.com/Bonin-gustavo/esquemas_semioticos
 ```
 

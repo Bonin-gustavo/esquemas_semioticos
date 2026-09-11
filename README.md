@@ -1,5 +1,7 @@
 # Esquemas Tensivos
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22712487.svg)](https://doi.org/10.5281/zenodo.22712487)
+
 **Leia em:** Português (atual) · [English](README.en.md) · [Français](README.fr.md)
 
 Duas ferramentas em Python para gerar, a partir de código, as visualizações de
@@ -161,7 +163,7 @@ Disponível em: https://revistas.usp.br/esse/article/view/206156. Acesso em: 11 
 ```
 BONIN, Gustavo. Esquemas Tensivos: espaço de intensidade (pontos e zonas) e
 campo de presença [software]. Programa de Pós-Graduação em Linguística,
-Universidade de São Paulo, 2026. Disponível em:
+Universidade de São Paulo, 2026. DOI: 10.5281/zenodo.22712487. Disponível em:
 https://github.com/Bonin-gustavo/esquemas_semioticos
 ```
 
