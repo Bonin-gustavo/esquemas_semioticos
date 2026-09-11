@@ -1,0 +1,12 @@
+name: Question
+description: Dúvida de uso ou conceitual
+title: "[Dúvida] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: pergunta
+    attributes:
+      label: Sua dúvida
+      description: Explique o que você quer fazer e onde travou.
+    validations:
+      required: true

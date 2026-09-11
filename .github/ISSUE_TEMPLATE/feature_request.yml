@@ -1,0 +1,22 @@
+name: Feature request
+description: Peça um novo esquema, um ajuste ou uma nova opção
+title: "[Sugestão] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposta
+    attributes:
+      label: O que você gostaria
+      description: Descreva o novo esquema/ajuste com o máximo de detalhe possível.
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto / uso
+      description: Para que você precisa disso? (artigo, aula, análise…)
+  - type: input
+    id: termos
+    attributes:
+      label: Termos técnicos
+      description: Se souber os nomes técnicos das categorias/eixos envolvidos, ajude aqui.

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# saídas geradas ao rodar os scripts na raiz de cada módulo
+# (os exemplos versionados ficam em */exemplos/, não são afetados)
+/cubo_tri/*.png
+/campo_presenca/*.png

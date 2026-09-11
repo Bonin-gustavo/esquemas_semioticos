@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Se você usar este software em sua pesquisa, cite-o conforme abaixo. / If you use this software in your research, please cite it as below."
+title: "Esquemas Tensivos: espaço de intensidade (pontos e zonas) e campo de presença"
+abstract: >-
+  Ferramentas em Python para gerar, a partir de código, as visualizações de
+  esquemas da semiótica tensiva: o espaço de intensidade (pontos e zonas) e o
+  campo de presença.
+authors:
+  - family-names: Bonin
+    given-names: Gustavo
+    affiliation: "Programa de Pós-Graduação em Linguística, Universidade de São Paulo"
+keywords:
+  - semiotics
+  - tensive semiotics
+  - semiótica tensiva
+  - visualization
+  - python
+  - matplotlib
+license: MIT
+version: 0.1.0
+date-released: "2026-09-11"
+repository-code: "https://github.com/Bonin-gustavo/esquemas_semioticos"
+type: software

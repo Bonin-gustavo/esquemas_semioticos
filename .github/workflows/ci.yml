@@ -1,0 +1,53 @@
+name: smoke-test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Smoke test
+        env:
+          MPLBACKEND: Agg
+        run: |
+          python - <<'PY'
+          import pathlib, sys, tempfile
+          sys.path.insert(0, "cubo_tri")
+          sys.path.insert(0, "campo_presenca")
+
+          import cubo_tri_pontos_intensidade as p
+          import cubo_tri_zonas_intensidade as z
+          import campo_presenca as cp
+          import campo_presenca_puro as cpp
+
+          d = pathlib.Path(tempfile.mkdtemp())
+
+          # pontos — uma diagonal e um percurso
+          p.pontos_fiduciario_conversa().salvar(str(d / "a.png"))
+          p.pontos_competencial_inversa_2().salvar(str(d / "b.png"))
+          p.pontos_veridictorio_percurso_dois().salvar(str(d / "c.png"))
+
+          # zonas — zona destacada e percurso
+          z.zonas_zona_completo(("crê totalmente", "confia totalmente", "demais")).salvar(str(d / "d.png"))
+          z.zonas_percurso([{"zonas": [
+              ("não crê nada", "não confia nada", "demenos"),
+              ("crê totalmente", "confia totalmente", "demais"),
+          ]}]).salvar(str(d / "e.png"))
+
+          # campo de presença — base e enriquecida
+          cp.campo_direcoes_tensivas().salvar(str(d / "f.png"))
+          cpp.campo_ambas_asc().salvar(str(d / "g.png"))
+
+          print("smoke test OK")
+          PY

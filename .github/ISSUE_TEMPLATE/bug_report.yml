@@ -1,0 +1,28 @@
+name: Bug report
+description: Relate um problema ou comportamento inesperado
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: O que aconteceu e o que você esperava.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      description: Código ou comandos que você rodou.
+      render: shell
+  - type: textarea
+    id: saida
+    attributes:
+      label: Mensagem de erro (se houver)
+      render: shell
+  - type: input
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: Sistema operacional e versão do Python (ex.: macOS, Python 3.12).
