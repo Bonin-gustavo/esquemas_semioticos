@@ -50,6 +50,29 @@ Crimson_Pro/                # font used in the figures (SIL OFL 1.1)
 requirements.txt
 ```
 
+## Examples
+
+A few generated figures (click to enlarge):
+
+<table>
+  <tr>
+    <td><img src="cubo_tri/exemplos/pontos/fiduciario/pontos_fiduciario_conversa.png" alt="Fiduciary space — converse diagonal" width="380"></td>
+    <td><img src="cubo_tri/exemplos/zonas/fiduciario/zonas_fiduciario_zona_completo.png" alt="Fiduciary space — highlighted zone" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><i>pontos_fiduciario_conversa</i></td>
+    <td align="center"><i>zonas_fiduciario_zona_completo</i></td>
+  </tr>
+  <tr>
+    <td><img src="campo_presenca/exemplos/campo_presenca_direcoes_tensivas.png" alt="Field of presence — tensive directions" width="380"></td>
+    <td><img src="campo_presenca/exemplos/campo_ambas_asc.png" alt="Field of presence — enriched correlations" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><i>campo_presenca_direcoes_tensivas</i></td>
+    <td align="center"><i>campo_ambas_asc</i></td>
+  </tr>
+</table>
+
 ## Requirements
 
 - Python 3.9+

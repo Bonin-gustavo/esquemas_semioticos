@@ -48,6 +48,29 @@ Crimson_Pro/               # fonte usada nas figuras (SIL OFL 1.1)
 requirements.txt
 ```
 
+## Exemplos
+
+Algumas figuras geradas (clique para ampliar):
+
+<table>
+  <tr>
+    <td><img src="cubo_tri/exemplos/pontos/fiduciario/pontos_fiduciario_conversa.png" alt="Espaço fiduciário — diagonal conversa" width="380"></td>
+    <td><img src="cubo_tri/exemplos/zonas/fiduciario/zonas_fiduciario_zona_completo.png" alt="Espaço fiduciário — zona destacada" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><i>pontos_fiduciario_conversa</i></td>
+    <td align="center"><i>zonas_fiduciario_zona_completo</i></td>
+  </tr>
+  <tr>
+    <td><img src="campo_presenca/exemplos/campo_presenca_direcoes_tensivas.png" alt="Campo de presença — direções tensivas" width="380"></td>
+    <td><img src="campo_presenca/exemplos/campo_ambas_asc.png" alt="Campo de presença — correlações enriquecidas" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><i>campo_presenca_direcoes_tensivas</i></td>
+    <td align="center"><i>campo_ambas_asc</i></td>
+  </tr>
+</table>
+
 ## Dependências
 
 - Python 3.9+
